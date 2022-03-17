@@ -334,7 +334,10 @@ function Calculation() {
   answer[0].addEventListener(
     "keyup",
     function (event) {
-      if (event.which >= 65 && event.which <= 255 && event.which != 190)
+      if (
+        (event.which >= 65 && event.which < 96) ||
+        (event.which > 105 && event.which <= 255 && event.which != 190)
+      )
         this.value = 0;
       if (event.which >= 37 && event.which <= 40) return;
       var n = this.value.replace(/,/g, "");
@@ -379,7 +382,10 @@ function Calculation() {
   answer[1].addEventListener(
     "keyup",
     function (event) {
-      if (event.which >= 65 && event.which <= 255 && event.which != 190)
+      if (
+        (event.which >= 65 && event.which < 96) ||
+        (event.which > 105 && event.which <= 255 && event.which != 190)
+      )
         this.value = 0;
       if (event.which >= 37 && event.which <= 40) return;
       var n = this.value.replace(/,/g, "");
@@ -423,7 +429,10 @@ function Calculation() {
   answer[2].addEventListener(
     "keyup",
     function (event) {
-      if (event.which >= 65 && event.which <= 255 && event.which != 190)
+      if (
+        (event.which >= 65 && event.which < 96) ||
+        (event.which > 105 && event.which <= 255 && event.which != 190)
+      )
         this.value = 0;
       if (event.which >= 37 && event.which <= 40) return;
       var n = this.value.replace(/,/g, "");
@@ -467,7 +476,10 @@ function Calculation() {
   answer[3].addEventListener(
     "keyup",
     function (event) {
-      if (event.which >= 65 && event.which <= 255 && event.which != 190)
+      if (
+        (event.which >= 65 && event.which < 96) ||
+        (event.which > 105 && event.which <= 255 && event.which != 190)
+      )
         this.value = 0;
       if (event.which >= 37 && event.which <= 40) return;
       var n = this.value.replace(/,/g, "");
@@ -511,7 +523,10 @@ function Calculation() {
   answer[4].addEventListener(
     "keyup",
     function (event) {
-      if (event.which >= 65 && event.which <= 255 && event.which != 190)
+      if (
+        (event.which >= 65 && event.which < 96) ||
+        (event.which > 105 && event.which <= 255 && event.which != 190)
+      )
         this.value = 0;
       if (event.which >= 37 && event.which <= 40) return;
       var n = this.value.replace(/,/g, "");
