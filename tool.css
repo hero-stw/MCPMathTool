@@ -39,6 +39,10 @@ body p {
   border: 1.5px solid #4092ed;
   height: 30px;
 }
+#margin {
+  pointer-events: none;
+  user-select: none;
+}
 
 .up {
   display: flex;
