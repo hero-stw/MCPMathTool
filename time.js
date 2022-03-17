@@ -657,8 +657,6 @@ class Stopwatch {
       time_count[n] = this.toNum(times) - bf;
       time_lap[n] = msToHMS(time_count[n]);
     }
-    console.log(time_count);
-    console.log(time_lap);
   }
 
   stop() {
